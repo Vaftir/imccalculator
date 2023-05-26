@@ -35,4 +35,7 @@ function resposta(imc) {
   } else {
     resultado.innerHTML = "<br/> acima do peso do peso Imc: " + imc.toFixed(2);
   }
+
+  document.getElementById("peso").value = "";
+  document.getElementById("altura").value = "";
 }
